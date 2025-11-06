@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+    <link rel="stylesheet" href="slide6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/FormsMobileFirst/img/Logo.png" alt="logo">
+                <p>COMPANY NAME</p>
+            </div>
+            <button class="back"><img src="/FormsMobileFirst/img/Back-Button.png" alt="Sair"></button>
+        </div>
+        <nav>
+            <div class="slide-1"><img src="/FormsMobileFirst/img/Indicador.png" alt="indicador"></div>
+            <div class="slide-2"><img src="/FormsMobileFirst/img/Indicador.png" alt="indicador"></div>
+            <div class="slide-3"><img src="/FormsMobileFirst/img/Indicador.png" alt="indicador"></div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="content-header">
+            <h1>Profile info</h1>
+            <p>Fill in the data for profile. It will take a couple of minutes. 
+            You only need a passport</p>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox">
+            <label for="">I agree with <a href="#">Terms of use</a></label>
+        </div>
+
+        <form action="">
+            <fieldset>
+                <div class="info-header">
+                    <h2>Delivery address</h2>
+                    <p>Used for shipping orders</p>
+                </div>
+
+                <div class="Address">
+                    <label for="">Address</label>
+                    <input type="text">
+                </div>
+                
+                <div class="city">
+                    <label for="">city</label>
+                    <input type="text">
+                </div>
+
+                <div class="info-content">
+                    <div class="info-esquerda">
+                        <label for="">Country</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="info-direita">
+                        <label for="">Zip Code</label>
+                        <input type="number">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="content-footer">
+            <input type="number">
+            <label for=""><i class="fa-solid fa-check"></i>Your INTIN</label>
+        </div>
+        
+        <button class="btn-next">Go Next <i class="fa-solid fa-arrow-right"></i></button>
+    </main>
+</body>
+</html>
