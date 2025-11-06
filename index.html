@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="logo">
+            <div class="logo-icon"><img src="assets/Logo.png" alt="logo"></div>
+            <span>COMPANY NAME</span>
+        </div>
+        <button class="close-btn" aria-label="Fechar">&times;</button>
+    </header>
+
+    <div class="progress-steps" aria-label="Progresso: passo 1 de 4">
+        <a href="index.html" class="step active"></a>
+        <a href="step2.html" class="step"></a>
+        <a href="step3.html" class="step"></a>
+    </div>
+    <main class="registration-main">
+
+        <section class="intro-section" aria-labelledby="registration-title">
+            <div class="registration-content">
+                <h1 id="registration-title">Registration</h1>
+                <p>Fill in the registration data. It will take a couple of minutes. All you need is a phone number and
+                    e-mail.</p>
+            </div>
+        </section>
+
+        <div class="privacy-alert-wrapper">
+            <div class="privacy-alert" role="alert">
+                <i class="fa-solid fa-lock icon"></i>
+                <p>We take privacy issues seriously. You can be sure that your personal data is securely protected.</p>
+                <button class="close-alert-btn" aria-label="Fechar alerta">&times;</button>
+            </div>
+        </div>
+
+        <section class="form-section">
+            <form class="registration-form" action="#" method="post">
+                <label for="phone-number">Enter your phone number</label>
+                <div class="input-group">
+                    <select name="country-code" aria-label="Código do país">
+                        <option value="+1">+1</option>
+                        <option value="+55">+55</option>
+                        <option value="+44">+44</option>
+                    </select>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="555-555-1234" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn"><a href="step2.html"
+                            style="text-decoration: none; color: black;">Send Code</a></button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
