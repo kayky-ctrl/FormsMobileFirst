@@ -178,3 +178,103 @@ form label {
     border-radius: 5px;
     font-family: poppins;
 }
+@media (min-width: 768px) {
+    
+    body {
+        background-color: #f9faff;
+    }
+    
+    main.content {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px;
+    }
+
+    .content-header, .checkbox, form, .content-footer {
+        max-width: 700px;
+        width: 100%;
+        display: flex;
+    }
+
+    .content-header p {
+        width: auto;
+        max-width: 450px;
+    }
+
+    fieldset, .content-footer {
+        border: 1px solid #eaf0f6;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(68, 100, 145, 0.08);
+        box-sizing: border-box;
+    }
+
+    fieldset {
+        background-color: #ffffff;
+        padding: 30px 40px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .info-header {
+        flex-basis: 100%;
+        padding: 0; 
+    }
+
+    .firstName, .secondName, .info-esquerda, .info-direita {
+        width: auto;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    .firstName, .secondName {
+        flex: 1; 
+        min-width: 250px;
+    }
+    
+    .info-content {
+        flex-basis: 100%; 
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        width: 100%;
+    }
+    
+    .info-content .info-esquerda,
+    .info-content .info-direita {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .content-footer {
+        background-color: rgba(239, 247, 255, 1);
+        padding: 20px 40px;
+        margin-top: 25px; 
+    }
+    
+    .content-footer input {
+        padding-top: 10px; 
+    }
+
+    .btn-next {
+        background-color: #ffffff;
+        border: 1px solid #e0e4e9;
+        border-radius: 6px;
+        width: 130px; 
+        font-weight: 600;
+        color: #242731;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-top: 25px;
+    }
+
+    .btn-next a {
+         text-decoration: none;
+         color: inherit;
+    }
+
+}
